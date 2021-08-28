@@ -4,7 +4,7 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 import pandas as pd
 
 #Criando meu dataframe
-df = pd.read_csv("datasets/Gapminder.csv", error_bad_lines=False, sep=";")
+df = pd.read_csv("datasets/csv/Gapminder.csv", error_bad_lines=False, sep=";")
 
 #Exibindo algumas informações do dataframe
 print(df.head())
